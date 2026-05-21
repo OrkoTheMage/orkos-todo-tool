@@ -15,7 +15,7 @@ Features
 
 - Fast CLI: `list`, `add`, `update`, `remove`, `urgent`, `reorder`, `scheduled`, `id`, and `personalize` commands.
 - Toggle completion from the CLI: use `-check <id>` and `-uncheck <id>` to mark items checked/unchecked.
-- Day-filtered scheduled view and stable ordering: `todo scheduled <day>` (e.g. `todo scheduled Mon`) shows only that day's scheduled items in a consistent, sorted order.
+- Day-filtered the scheduled view and stable ordering: `todo scheduled <day>` (e.g. `todo scheduled Mon`) shows only that day's scheduled items in a consistent, sorted order.
 - Styled terminal output with configurable colors and accenting for urgent/scheduled items.
 - Simple persistence in a JSON file (`~/.todos.json`) with fuzzy-text lookup for quick updates.
 - Small CLI wrapper (`todo`) with package modules under `src/`, suitable for from-source use and packaging via setuptools.
